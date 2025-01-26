@@ -1,0 +1,136 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: "Inter", sans-serif;
+}
+body{
+    background-color:#141414;
+    color:white;
+      }
+#social-link-profile-container{
+    background-color:#1f1f1f;
+    width:384px;
+    height:621px;
+    margin:5rem auto;
+    border-radius:13px;
+    display:flex;
+    align-items:center;
+    flex-direction: column;
+}
+.social-profile-image img{
+    border-radius: 50px;
+    width:89px;
+    height:89px;
+    margin-top:2rem;
+}
+.social-profile-text{
+    text-align:center;
+}
+.social-profile-text h1{
+    font-weight:450;
+    font-size:25px;
+    margin-top:1.5rem;
+}
+.social-profile-text h4{
+    font-size:14px;
+    color:#c5f82a;
+    margin-top:.5rem;
+    margin-bottom: 1.8rem;
+}
+.social-profile-text p{
+    margin-top:1.5rem;
+    font-size:14px;
+}
+.links-container{
+    margin-top:1.5rem;
+}
+.links-menu li{
+list-style-type:none;
+text-align:center;
+width:308px;
+height:45px;
+margin:1rem 0rem;
+}
+.links-menu li a{
+    background-color:#333333;
+    color:white;
+    text-decoration: none;
+    width:308px;
+    height:45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight:700;
+    border-radius: 8px;
+    transition:all .2s ease-in;
+}
+.links-menu li a:hover{
+background-color:#c5f82a;
+color:#141414;}
+/*
+Media Querey
+*/
+@media screen and (max-width:400px){
+    #social-link-profile-container{
+        width:90%;
+       }
+ 
+.links-menu li a{
+    width:85%;
+    margin-left:auto;
+    margin-right:auto;
+   }      
+}
+
+@media screen and (max-width:360px){
+    .links-menu li {
+        width:360px;
+       }
+.links-menu li a{
+    width:75%;
+    margin-left: auto;
+    margin-right: auto;
+   }    
+}
+
+@media screen and (max-width:375px){
+    .links-menu li {
+        width:375px;
+       }
+.links-menu li a{
+    width:75%;
+    margin-left: auto;
+    margin-right: auto;
+   }      
+}
+@media screen and (max-width:280px){
+    .links-menu li {
+        width:280px;
+       }
+.links-menu li a{
+    width:60%;
+    margin-left: auto;
+    margin-right: auto;
+   }      
+}
+
+@media screen and (max-width:360px){
+    .links-menu li {
+        width:360px;
+       }   
+       #social-link-profile-container{
+        width:82%;
+       }
+    }
+    
+
+@media screen and (max-width:375px){
+    .links-menu li {
+        width:375px;
+       }   
+       #social-link-profile-container{
+        width:90%;
+       }
+    }
+ 
